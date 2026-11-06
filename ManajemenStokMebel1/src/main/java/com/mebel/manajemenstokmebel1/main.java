@@ -1,9 +1,8 @@
-package manajemenstokmebel.main;
+package com.mebel.manajemenstokmebel1;
 
-import com.mebel.manajemenstokmebel1.Login;
 import javax.swing.SwingUtilities;
 
-public class  main{
+public class main {
 
     public static void main(String[] args) {
 
@@ -11,7 +10,7 @@ public class  main{
 
             Login login = new Login();
 
-            login.setTitle("OrderFlowAPP - Login");
+            login.setTitle("Manajemen Stok Mebel - Login");
             login.setLocationRelativeTo(null);
             login.setVisible(true);
 
